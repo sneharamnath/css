@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS positions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="block a">Block A</div>
+
+        <div class="block b">Block B</div>
+
+        <div class="block c">Block C</div>
+
+        <div class="block d">Block D</div>
+
+    </div>
+
+    <div>
+        <p>Position Me!</p>
+        <button onclick="static()">Static</button>
+        <button onclick="relative()">Relative</button>
+        <button onclick="absoluteParentRelative()">Absolute (Parent positioned Relative)</button>
+        <button onclick="absoluteParentWindow()">Absolute (No parent with Relative Position)</button>
+        <button onclick="fixed()">Fixed</button>
+        <button onclick="sticky()">Sticky</button>
+    </div>
+
+    <div class="desc">
+        <b>Description: </b>
+        <span class="text"></span>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="position.js"></script>
+</body>
+
+</html>

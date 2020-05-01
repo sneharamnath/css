@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    border: 1px solid salmon;
+    margin-top: 5rem;
+}
+
+.block {
+    height: 200px;
+    width: 200px;
+    background-color: lightpink;
+    border-left: 1px dotted salmon;
+    border-right: 1px dotted salmon;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+.relativeme{
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sticky {
+    position: sticky;
+    top: 2rem;
+}
+
+.desc {
+    margin-top: 3rem;
+    font-size: 16px;
+    font-style: italic;
+}
