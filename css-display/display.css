@@ -1,0 +1,49 @@
+.myblock{
+    height: 100px;
+    width: 100px;
+}
+
+.a {
+    background-color: salmon;
+}
+
+.b {
+    background-color: rebeccapurple;
+}
+
+.c {
+    background-color: firebrick;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.desc {
+    margin-top: 2rem;
+}
+
+.desc .text {
+    font-style: italic;
+}
+
+.block{
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+.word {
+    height: 100px;
+    width: 100px;
+}
